@@ -1,0 +1,86 @@
+Terraform 101
+
+Request Training Account Access
+http://go.byu.edu/AWSTrainingAccountRequest
+
+
+byu-org-trn (797871726256)
+
+
+spin up a new cloud9 box
+
+create environment
+netid-terraform-101
+
+next step 
+
+
+vpc-0d4f716433bda1413
+ put in subnet  subnet-071692a02d8fead70 
+ or subnet-0fe6609f28b3c2f83
+
+public A or B
+
+Next Step
+Review and Create Environment
+
+
+Install Terraform 
+
+search google for terraform download
+right click on Linux 64-bit and copy link location
+https://releases.hashicorp.com/terraform/0.12.24/terraform_0.12.24_linux_amd64.zip
+
+
+
+In a terminal:
+
+$ cd ~
+$ wget https://releases.hashicorp.com/terraform/0.12.24/terraform_0.12.24_linux_amd64.zip
+$ ls
+$ unzip terraform_0.12.9_linux_amd64.zip
+$ ls
+$ sudo mv terraform /usr/local/bin
+$ cd -
+
+
+cd environment
+
+make a new file  main.tf
+
+terraform init
+terraform apply
+
+add the simplest S3 bucket possible  (look up the docs)
+
+
+terraform init
+terraform apply
+
+enter a region --
+
+enter a yes to 
+
+change the bucket name  (destroy)
+
+change the tags  ()
+
+
+
+
+ Make an Iam User and Policy
+ 
+ Awslogin
+ sudo pip install byu_awslogin
+
+
+Go Make an S3 bucket by hand
+
+create the template for it in Terraform
+import it.   
+
+Github
+
+More Resources:
+
+https://www.linkedin.com/learning/learning-terraform-2/basic-resource-types?u=2153100
