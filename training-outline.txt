@@ -84,3 +84,13 @@ Github
 More Resources:
 
 https://www.linkedin.com/learning/learning-terraform-2/basic-resource-types?u=2153100
+
+
+Common Terraform Commands
+terraform init
+terraform apply
+terraform init && terraform apply
+terraform plan
+terraform state list
+terraform state rm 'module.foo'
+terraform import aws_s3_bucket.bucket bucket-name
